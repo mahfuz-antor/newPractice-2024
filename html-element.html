@@ -10,6 +10,16 @@ Title after long time
 h3 {
 font-size: 20px;
 }
+
+tr:nth-child(even){
+  background-color: #dfdfdf;
+}
+
+th,td {
+  border: 1px solid skyblue;
+  text-align: left;     
+  padding: 20px;
+}
 </style>
 
 <link rel="stylesheet" type="text/css" href="style.css">
@@ -18,7 +28,7 @@ font-size: 20px;
 
 <body>
 
-<h1 id="headingOne">
+<!-- <h1 id="headingOne">
 large heading h1
 </h1>
 
@@ -53,13 +63,47 @@ USA
 
 <bdo dir="rtl">This line will be written from right to left</bdo>
 
-<!-- this is hidden text. -->
+this is hidden text.
 
 <h3 style="border: 2px solid red; padding: 20px; text-align:center;"> This is border text. </h3>
 
 <div> 
  <h3> This is RGBA color with 30% opacity </h3>
-</div>
+</div> -->
+
+<!-- Day-2 Practicing -->
+
+<table style="background-color: white; width:100%; border-collapse: collapse; font-family: Arial, Helvetica, sans-serif;">
+  
+  <tr>
+    <th>Image</th>
+    <th>Name</th>
+    <th>Roll</th>
+    <th>Contact</th>
+  </tr>
+  <tr>
+    <td><img style="border-radius: 50%;" style="border-radius: 50%;" src="https://static.vecteezy.com/system/resources/thumbnails/005/346/410/small_2x/close-up-portrait-of-smiling-handsome-young-caucasian-man-face-looking-at-camera-on-isolated-light-gray-studio-background-photo.jpg" width="60px" height="60px" alt="An Image"></td>
+    <td style="background-image: url(''); background-repeat: no-repeat; background-size: contain;">Abdullah Al Azad</td>
+    <td>01</td>
+    <td>017100000</td>
+    
+    
+  </tr>
+  <tr>
+    <td><img style="border-radius: 50%;" src="https://static.vecteezy.com/system/resources/thumbnails/005/346/410/small_2x/close-up-portrait-of-smiling-handsome-young-caucasian-man-face-looking-at-camera-on-isolated-light-gray-studio-background-photo.jpg" width="60px" height="60px" alt="An Image"></td>
+    <td>Nur Al Din</td>
+    <td>02</td>
+    <td>017100000</td>
+  </tr>
+
+  <tr>
+    <td><img style="border-radius: 50%;" src="https://static.vecteezy.com/system/resources/thumbnails/005/346/410/small_2x/close-up-portrait-of-smiling-handsome-young-caucasian-man-face-looking-at-camera-on-isolated-light-gray-studio-background-photo.jpg" width="60px" height="60px" alt="An Image"></td>
+    <td>Mahmudur Reza</td>
+    <td>03</td>
+    
+    <td>017300000</td>
+  </tr>
+</table>
 
 </body>
 </html>
