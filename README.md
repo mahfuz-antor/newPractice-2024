@@ -1,2 +1,2 @@
 # newPractice-2024
-## Day two practice as a table data
+## Day two working flow: making a table design.
